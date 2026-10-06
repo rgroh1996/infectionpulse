@@ -1,0 +1,37 @@
+# Python and tooling
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.cache/
+.DS_Store
+*.log
+*.egg-info/
+
+# Local credentials (also matches files in nested directories)
+.env
+.env.*
+.streamlit/secrets.toml
+# Public configuration template contains no credentials.
+!.env.example
+
+# Local runtime state (locks, morning-brief output)
+.runtime/
+
+# Downloaded sources and model runs: large, regenerable with the documented commands.
+# The small cached service files stay tracked so the dashboard runs from a fresh clone.
+data/*
+!data/service/
+data/service/*
+!data/service/covid_observations.json
+!data/service/pathogen_observations.json
+!data/respiratory/
+data/respiratory/*
+!data/respiratory/source_status.json
+models/*
+!models/service/
+models/service/*
+!models/service/forecast_bundle.json
+
+# Machine-specific validation output
+reports/local-validation.json

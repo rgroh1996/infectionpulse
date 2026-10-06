@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infectionpulse"
+version = "1.0.0"
+description = "Next-week respiratory illness forecasts for Germany with TabPFN-3.5"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+
+[tool.setuptools]
+packages = ["infectionpulse"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "scripts"]
+filterwarnings = ["ignore:X does not have valid feature names.*:UserWarning"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
