@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-09-17T13:22:10.206438+00:00",
+  "record_count": 400,
+  "source_file": "data/demographics/district_demographics_reference.csv",
+  "source_sha256": "f6e9d48253257f1662ec1d77d6428cb329b42cb43ad2eb9995a809228d1b6b19",
+  "catalog_sha256": "bd0ae9d0f1ec75d25978998a75696f59ed1d8af586f2d08fa2817ea8e0f16dc2",
+  "sources": [
+    {
+      "publisher": "Statistisches Bundesamt (Destatis)",
+      "title": "Kreisfreie Städte und Landkreise — Gemeindeverzeichnis",
+      "url": "https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/04-kreise.xlsx?__blob=publicationFile",
+      "fields": [
+        "location_id",
+        "name"
+      ]
+    },
+    {
+      "publisher": "Robert Koch-Institut",
+      "title": "GrippeWeb Daten des Wochenberichts — regional definitions",
+      "url": "https://github.com/robert-koch-institut/GrippeWeb_Daten_des_Wochenberichts",
+      "fields": [
+        "region_id"
+      ],
+      "mapping": "Official federal-state-to-GrippeWeb-macroregion membership implemented in infectionpulse/respiratory_data.py"
+    }
+  ],
+  "transformations": [
+    "Preserve five-digit AGS as strings.",
+    "Select district identifiers and names from the existing public reference snapshot.",
+    "Map AGS federal-state prefix to the official GrippeWeb macroregion."
+  ],
+  "excluded_fields": [
+    "population",
+    "density",
+    "age estimates",
+    "coordinates"
+  ],
+  "geography_note": "ARE forecasts describe macroregions; mapping a district does not create district-level ARE estimates."
+}

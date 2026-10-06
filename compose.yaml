@@ -1,0 +1,15 @@
+services:
+  infectionpulse:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      INFECTIONPULSE_ACCESS_TOKEN: ${INFECTIONPULSE_ACCESS_TOKEN:?Set a separate service access token in .env}
+      INFECTIONPULSE_ALLOWED_HOSTS: ${INFECTIONPULSE_ALLOWED_HOSTS:-}
+      INFECTIONPULSE_ALLOWED_ORIGINS: ${INFECTIONPULSE_ALLOWED_ORIGINS:-}
+    volumes:
+      - ./models/service:/app/models/service:ro
+      - ./data/service:/app/data/service:ro
+      - ./data/respiratory:/app/data/respiratory:ro
+      - ./data/demographics:/app/data/demographics:ro
+    restart: unless-stopped

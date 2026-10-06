@@ -1,0 +1,2405 @@
+{
+  "schema_version": 1,
+  "locations": [
+    {
+      "location_id": "01001",
+      "name": "Flensburg, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01002",
+      "name": "Kiel, Landeshauptstadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01003",
+      "name": "Lübeck, Hansestadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01004",
+      "name": "Neumünster, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01051",
+      "name": "Dithmarschen",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01053",
+      "name": "Herzogtum Lauenburg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01054",
+      "name": "Nordfriesland",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01055",
+      "name": "Ostholstein",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01056",
+      "name": "Pinneberg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01057",
+      "name": "Plön",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01058",
+      "name": "Rendsburg-Eckernförde",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01059",
+      "name": "Schleswig-Flensburg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01060",
+      "name": "Segeberg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01061",
+      "name": "Steinburg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "01062",
+      "name": "Stormarn",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "02000",
+      "name": "Hamburg, Freie und Hansestadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03101",
+      "name": "Braunschweig, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03102",
+      "name": "Salzgitter, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03103",
+      "name": "Wolfsburg, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03151",
+      "name": "Gifhorn",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03153",
+      "name": "Goslar",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03154",
+      "name": "Helmstedt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03155",
+      "name": "Northeim",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03157",
+      "name": "Peine",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03158",
+      "name": "Wolfenbüttel",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03159",
+      "name": "Göttingen",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03241",
+      "name": "Region Hannover",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03251",
+      "name": "Diepholz",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03252",
+      "name": "Hameln-Pyrmont",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03254",
+      "name": "Hildesheim",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03255",
+      "name": "Holzminden",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03256",
+      "name": "Nienburg (Weser)",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03257",
+      "name": "Schaumburg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03351",
+      "name": "Celle",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03352",
+      "name": "Cuxhaven",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03353",
+      "name": "Harburg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03354",
+      "name": "Lüchow-Dannenberg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03355",
+      "name": "Lüneburg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03356",
+      "name": "Osterholz",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03357",
+      "name": "Rotenburg (Wümme)",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03358",
+      "name": "Heidekreis",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03359",
+      "name": "Stade",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03360",
+      "name": "Uelzen",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03361",
+      "name": "Verden",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03401",
+      "name": "Delmenhorst, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03402",
+      "name": "Emden, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03403",
+      "name": "Oldenburg (Oldenburg), Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03404",
+      "name": "Osnabrück, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03405",
+      "name": "Wilhelmshaven, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03451",
+      "name": "Ammerland",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03452",
+      "name": "Aurich",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03453",
+      "name": "Cloppenburg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03454",
+      "name": "Emsland",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03455",
+      "name": "Friesland",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03456",
+      "name": "Grafschaft Bentheim",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03457",
+      "name": "Leer",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03458",
+      "name": "Oldenburg",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03459",
+      "name": "Osnabrück",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03460",
+      "name": "Vechta",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03461",
+      "name": "Wesermarsch",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "03462",
+      "name": "Wittmund",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "04011",
+      "name": "Bremen, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "04012",
+      "name": "Bremerhaven, Stadt",
+      "region_id": "north_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05111",
+      "name": "Düsseldorf, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05112",
+      "name": "Duisburg, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05113",
+      "name": "Essen, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05114",
+      "name": "Krefeld, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05116",
+      "name": "Mönchengladbach, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05117",
+      "name": "Mülheim an der Ruhr, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05119",
+      "name": "Oberhausen, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05120",
+      "name": "Remscheid, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05122",
+      "name": "Solingen, Klingenstadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05124",
+      "name": "Wuppertal, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05154",
+      "name": "Kleve",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05158",
+      "name": "Mettmann",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05162",
+      "name": "Rhein-Kreis Neuss",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05166",
+      "name": "Viersen",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05170",
+      "name": "Wesel",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05314",
+      "name": "Bonn, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05315",
+      "name": "Köln, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05316",
+      "name": "Leverkusen, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05334",
+      "name": "Städteregion Aachen",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05358",
+      "name": "Düren",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05362",
+      "name": "Rhein-Erft-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05366",
+      "name": "Euskirchen",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05370",
+      "name": "Heinsberg",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05374",
+      "name": "Oberbergischer Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05378",
+      "name": "Rheinisch-Bergischer Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05382",
+      "name": "Rhein-Sieg-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05512",
+      "name": "Bottrop, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05513",
+      "name": "Gelsenkirchen, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05515",
+      "name": "Münster, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05554",
+      "name": "Borken",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05558",
+      "name": "Coesfeld",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05562",
+      "name": "Recklinghausen",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05566",
+      "name": "Steinfurt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05570",
+      "name": "Warendorf",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05711",
+      "name": "Bielefeld, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05754",
+      "name": "Gütersloh",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05758",
+      "name": "Herford",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05762",
+      "name": "Höxter",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05766",
+      "name": "Lippe",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05770",
+      "name": "Minden-Lübbecke",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05774",
+      "name": "Paderborn",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05911",
+      "name": "Bochum, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05913",
+      "name": "Dortmund, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05914",
+      "name": "Hagen, Stadt der FernUniversität",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05915",
+      "name": "Hamm, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05916",
+      "name": "Herne, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05954",
+      "name": "Ennepe-Ruhr-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05958",
+      "name": "Hochsauerlandkreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05962",
+      "name": "Märkischer Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05966",
+      "name": "Olpe",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05970",
+      "name": "Siegen-Wittgenstein",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05974",
+      "name": "Soest",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "05978",
+      "name": "Unna",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06411",
+      "name": "Darmstadt, Wissenschaftsstadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06412",
+      "name": "Frankfurt am Main, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06413",
+      "name": "Offenbach am Main, Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06414",
+      "name": "Wiesbaden, Landeshauptstadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06431",
+      "name": "Bergstraße",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06432",
+      "name": "Darmstadt-Dieburg",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06433",
+      "name": "Groß-Gerau",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06434",
+      "name": "Hochtaunuskreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06435",
+      "name": "Main-Kinzig-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06436",
+      "name": "Main-Taunus-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06437",
+      "name": "Odenwaldkreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06438",
+      "name": "Offenbach",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06439",
+      "name": "Rheingau-Taunus-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06440",
+      "name": "Wetteraukreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06531",
+      "name": "Gießen",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06532",
+      "name": "Lahn-Dill-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06533",
+      "name": "Limburg-Weilburg",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06534",
+      "name": "Marburg-Biedenkopf",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06535",
+      "name": "Vogelsbergkreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06611",
+      "name": "Kassel, documenta-Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06631",
+      "name": "Fulda",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06632",
+      "name": "Hersfeld-Rotenburg",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06633",
+      "name": "Kassel",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06634",
+      "name": "Schwalm-Eder-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06635",
+      "name": "Waldeck-Frankenberg",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "06636",
+      "name": "Werra-Meißner-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07111",
+      "name": "Koblenz, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07131",
+      "name": "Ahrweiler",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07132",
+      "name": "Altenkirchen (Westerwald)",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07133",
+      "name": "Bad Kreuznach",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07134",
+      "name": "Birkenfeld",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07135",
+      "name": "Cochem-Zell",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07137",
+      "name": "Mayen-Koblenz",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07138",
+      "name": "Neuwied",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07140",
+      "name": "Rhein-Hunsrück-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07141",
+      "name": "Rhein-Lahn-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07143",
+      "name": "Westerwaldkreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07211",
+      "name": "Trier, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07231",
+      "name": "Bernkastel-Wittlich",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07232",
+      "name": "Eifelkreis Bitburg-Prüm",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07233",
+      "name": "Vulkaneifel",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07235",
+      "name": "Trier-Saarburg",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07311",
+      "name": "Frankenthal (Pfalz), kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07312",
+      "name": "Kaiserslautern, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07313",
+      "name": "Landau in der Pfalz, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07314",
+      "name": "Ludwigshafen am Rhein, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07315",
+      "name": "Mainz, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07316",
+      "name": "Neustadt an der Weinstraße, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07317",
+      "name": "Pirmasens, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07318",
+      "name": "Speyer, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07319",
+      "name": "Worms, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07320",
+      "name": "Zweibrücken, kreisfreie Stadt",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07331",
+      "name": "Alzey-Worms",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07332",
+      "name": "Bad Dürkheim",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07333",
+      "name": "Donnersbergkreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07334",
+      "name": "Germersheim",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07335",
+      "name": "Kaiserslautern",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07336",
+      "name": "Kusel",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07337",
+      "name": "Südliche Weinstraße",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07338",
+      "name": "Rhein-Pfalz-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07339",
+      "name": "Mainz-Bingen",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "07340",
+      "name": "Südwestpfalz",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08111",
+      "name": "Stuttgart, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08115",
+      "name": "Böblingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08116",
+      "name": "Esslingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08117",
+      "name": "Göppingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08118",
+      "name": "Ludwigsburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08119",
+      "name": "Rems-Murr-Kreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08121",
+      "name": "Heilbronn, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08125",
+      "name": "Heilbronn",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08126",
+      "name": "Hohenlohekreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08127",
+      "name": "Schwäbisch Hall",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08128",
+      "name": "Main-Tauber-Kreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08135",
+      "name": "Heidenheim",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08136",
+      "name": "Ostalbkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08211",
+      "name": "Baden-Baden, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08212",
+      "name": "Karlsruhe, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08215",
+      "name": "Karlsruhe",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08216",
+      "name": "Rastatt",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08221",
+      "name": "Heidelberg, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08222",
+      "name": "Mannheim, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08225",
+      "name": "Neckar-Odenwald-Kreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08226",
+      "name": "Rhein-Neckar-Kreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08231",
+      "name": "Pforzheim, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08235",
+      "name": "Calw",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08236",
+      "name": "Enzkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08237",
+      "name": "Freudenstadt",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08311",
+      "name": "Freiburg im Breisgau, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08315",
+      "name": "Breisgau-Hochschwarzwald",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08316",
+      "name": "Emmendingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08317",
+      "name": "Ortenaukreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08325",
+      "name": "Rottweil",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08326",
+      "name": "Schwarzwald-Baar-Kreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08327",
+      "name": "Tuttlingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08335",
+      "name": "Konstanz",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08336",
+      "name": "Lörrach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08337",
+      "name": "Waldshut",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08415",
+      "name": "Reutlingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08416",
+      "name": "Tübingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08417",
+      "name": "Zollernalbkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08421",
+      "name": "Ulm, Stadtkreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08425",
+      "name": "Alb-Donau-Kreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08426",
+      "name": "Biberach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08435",
+      "name": "Bodenseekreis",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08436",
+      "name": "Ravensburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "08437",
+      "name": "Sigmaringen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09161",
+      "name": "Ingolstadt",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09162",
+      "name": "München, Landeshauptstadt",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09163",
+      "name": "Rosenheim",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09171",
+      "name": "Altötting",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09172",
+      "name": "Berchtesgadener Land",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09173",
+      "name": "Bad Tölz-Wolfratshausen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09174",
+      "name": "Dachau",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09175",
+      "name": "Ebersberg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09176",
+      "name": "Eichstätt",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09177",
+      "name": "Erding",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09178",
+      "name": "Freising",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09179",
+      "name": "Fürstenfeldbruck",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09180",
+      "name": "Garmisch-Partenkirchen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09181",
+      "name": "Landsberg am Lech",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09182",
+      "name": "Miesbach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09183",
+      "name": "Mühldorf a.Inn",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09184",
+      "name": "München",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09185",
+      "name": "Neuburg-Schrobenhausen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09186",
+      "name": "Pfaffenhofen a.d.Ilm",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09187",
+      "name": "Rosenheim",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09188",
+      "name": "Starnberg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09189",
+      "name": "Traunstein",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09190",
+      "name": "Weilheim-Schongau",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09261",
+      "name": "Landshut",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09262",
+      "name": "Passau",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09263",
+      "name": "Straubing",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09271",
+      "name": "Deggendorf",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09272",
+      "name": "Freyung-Grafenau",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09273",
+      "name": "Kelheim",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09274",
+      "name": "Landshut",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09275",
+      "name": "Passau",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09276",
+      "name": "Regen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09277",
+      "name": "Rottal-Inn",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09278",
+      "name": "Straubing-Bogen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09279",
+      "name": "Dingolfing-Landau",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09361",
+      "name": "Amberg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09362",
+      "name": "Regensburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09363",
+      "name": "Weiden i.d.OPf.",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09371",
+      "name": "Amberg-Sulzbach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09372",
+      "name": "Cham",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09373",
+      "name": "Neumarkt i.d.OPf.",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09374",
+      "name": "Neustadt a.d.Waldnaab",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09375",
+      "name": "Regensburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09376",
+      "name": "Schwandorf",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09377",
+      "name": "Tirschenreuth",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09461",
+      "name": "Bamberg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09462",
+      "name": "Bayreuth",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09463",
+      "name": "Coburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09464",
+      "name": "Hof",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09471",
+      "name": "Bamberg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09472",
+      "name": "Bayreuth",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09473",
+      "name": "Coburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09474",
+      "name": "Forchheim",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09475",
+      "name": "Hof",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09476",
+      "name": "Kronach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09477",
+      "name": "Kulmbach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09478",
+      "name": "Lichtenfels",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09479",
+      "name": "Wunsiedel i.Fichtelgebirge",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09561",
+      "name": "Ansbach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09562",
+      "name": "Erlangen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09563",
+      "name": "Fürth",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09564",
+      "name": "Nürnberg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09565",
+      "name": "Schwabach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09571",
+      "name": "Ansbach",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09572",
+      "name": "Erlangen-Höchstadt",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09573",
+      "name": "Fürth",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09574",
+      "name": "Nürnberger Land",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09575",
+      "name": "Neustadt a.d.Aisch-Bad Windsheim",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09576",
+      "name": "Roth",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09577",
+      "name": "Weißenburg-Gunzenhausen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09661",
+      "name": "Aschaffenburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09662",
+      "name": "Schweinfurt",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09663",
+      "name": "Würzburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09671",
+      "name": "Aschaffenburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09672",
+      "name": "Bad Kissingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09673",
+      "name": "Rhön-Grabfeld",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09674",
+      "name": "Haßberge",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09675",
+      "name": "Kitzingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09676",
+      "name": "Miltenberg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09677",
+      "name": "Main-Spessart",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09678",
+      "name": "Schweinfurt",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09679",
+      "name": "Würzburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09761",
+      "name": "Augsburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09762",
+      "name": "Kaufbeuren",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09763",
+      "name": "Kempten (Allgäu)",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09764",
+      "name": "Memmingen",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09771",
+      "name": "Aichach-Friedberg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09772",
+      "name": "Augsburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09773",
+      "name": "Dillingen a.d.Donau",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09774",
+      "name": "Günzburg",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09775",
+      "name": "Neu-Ulm",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09776",
+      "name": "Lindau (Bodensee)",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09777",
+      "name": "Ostallgäu",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09778",
+      "name": "Unterallgäu",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09779",
+      "name": "Donau-Ries",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "09780",
+      "name": "Oberallgäu",
+      "region_id": "south",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "10041",
+      "name": "Regionalverband Saarbrücken",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "10042",
+      "name": "Merzig-Wadern",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "10043",
+      "name": "Neunkirchen",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "10044",
+      "name": "Saarlouis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "10045",
+      "name": "Saarpfalz-Kreis",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "10046",
+      "name": "St. Wendel",
+      "region_id": "central_west",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "11000",
+      "name": "Berlin, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12051",
+      "name": "Brandenburg an der Havel, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12052",
+      "name": "Cottbus, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12053",
+      "name": "Frankfurt (Oder), Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12054",
+      "name": "Potsdam, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12060",
+      "name": "Barnim",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12061",
+      "name": "Dahme-Spreewald",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12062",
+      "name": "Elbe-Elster",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12063",
+      "name": "Havelland",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12064",
+      "name": "Märkisch-Oderland",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12065",
+      "name": "Oberhavel",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12066",
+      "name": "Oberspreewald-Lausitz",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12067",
+      "name": "Oder-Spree",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12068",
+      "name": "Ostprignitz-Ruppin",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12069",
+      "name": "Potsdam-Mittelmark",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12070",
+      "name": "Prignitz",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12071",
+      "name": "Spree-Neiße",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12072",
+      "name": "Teltow-Fläming",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "12073",
+      "name": "Uckermark",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "13003",
+      "name": "Rostock",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "13004",
+      "name": "Schwerin",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "13071",
+      "name": "Mecklenburgische Seenplatte",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "13072",
+      "name": "Landkreis Rostock",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "13073",
+      "name": "Vorpommern-Rügen",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "13074",
+      "name": "Nordwestmecklenburg",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "13075",
+      "name": "Vorpommern-Greifswald",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "13076",
+      "name": "Ludwigslust-Parchim",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14511",
+      "name": "Chemnitz, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14521",
+      "name": "Erzgebirgskreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14522",
+      "name": "Mittelsachsen",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14523",
+      "name": "Vogtlandkreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14524",
+      "name": "Zwickau",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14612",
+      "name": "Dresden, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14625",
+      "name": "Bautzen",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14626",
+      "name": "Görlitz",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14627",
+      "name": "Meißen",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14628",
+      "name": "Sächsische Schweiz-Osterzgebirge",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14713",
+      "name": "Leipzig, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14729",
+      "name": "Leipzig",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "14730",
+      "name": "Nordsachsen",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15001",
+      "name": "Dessau-Roßlau, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15002",
+      "name": "Halle (Saale), Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15003",
+      "name": "Magdeburg, Landeshauptstadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15081",
+      "name": "Altmarkkreis Salzwedel",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15082",
+      "name": "Anhalt-Bitterfeld",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15083",
+      "name": "Börde",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15084",
+      "name": "Burgenlandkreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15085",
+      "name": "Harz",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15086",
+      "name": "Jerichower Land",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15087",
+      "name": "Mansfeld-Südharz",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15088",
+      "name": "Saalekreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15089",
+      "name": "Salzlandkreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15090",
+      "name": "Stendal",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "15091",
+      "name": "Wittenberg",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16051",
+      "name": "Erfurt, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16052",
+      "name": "Gera, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16053",
+      "name": "Jena, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16054",
+      "name": "Suhl, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16055",
+      "name": "Weimar, Stadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16061",
+      "name": "Eichsfeld",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16062",
+      "name": "Nordhausen",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16063",
+      "name": "Wartburgkreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16064",
+      "name": "Unstrut-Hainich-Kreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16065",
+      "name": "Kyffhäuserkreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16066",
+      "name": "Schmalkalden-Meiningen",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16067",
+      "name": "Gotha",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16068",
+      "name": "Sömmerda",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16069",
+      "name": "Hildburghausen",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16070",
+      "name": "Ilm-Kreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16071",
+      "name": "Weimarer Land",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16072",
+      "name": "Sonneberg",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16073",
+      "name": "Saalfeld-Rudolstadt",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16074",
+      "name": "Saale-Holzland-Kreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16075",
+      "name": "Saale-Orla-Kreis",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16076",
+      "name": "Greiz",
+      "region_id": "east",
+      "geographic_level": "district"
+    },
+    {
+      "location_id": "16077",
+      "name": "Altenburger Land",
+      "region_id": "east",
+      "geographic_level": "district"
+    }
+  ]
+}
