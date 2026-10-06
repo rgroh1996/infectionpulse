@@ -1,0 +1,563 @@
+{
+  "protocol": {
+    "schema_version": 1,
+    "run_id": "65cf524d3927a4b8",
+    "evidence_status": "exploratory_retrospective",
+    "disclosure": "Forecast accuracy on this test was inspected before this alert analysis. This protocol was frozen before computing alert comparisons, not before the original test. No confirmatory alert-superiority claim is permitted.",
+    "policies": {
+      "high_burden": {
+        "alert": "q50 >= reference_p80",
+        "event": "target_incidence >= reference_p80",
+        "purpose": "App high-community-burden trigger, before activity rules."
+      },
+      "seasonal_event": {
+        "alert": "probability >= 0.5",
+        "event": "target_incidence > seasonal_reference_p80",
+        "purpose": "Research-only seasonal exceedance; public probabilities remain gated."
+      }
+    },
+    "models": [
+      "TabPFN-3.5",
+      "LightGBM full-history",
+      "LightGBM",
+      "XGBoost full-history",
+      "XGBoost",
+      "Persistence",
+      "Seasonal naive",
+      "Recent mean",
+      "Recent trend"
+    ],
+    "threshold_selection": "Fixed existing policy; no tuning on test or development.",
+    "comparison": "All models on the same complete region-weeks; no missing=negative.",
+    "primary_comparator": "LightGBM full-history",
+    "bootstrap": {
+      "replicates": 2000,
+      "seed": 20260921,
+      "block_weeks": 4,
+      "method": "moving calendar-week blocks, all regions together"
+    },
+    "inputs_sha256": {
+      "predictions.parquet": "e3f813f65fff127a145b3a72e5dc671f4fc3a2ec958a33a9a3814229c66820e8",
+      "coverage_rows.parquet": "6072901bcb4f8bc5bdd9ef511e7e5e06762780d28d44428aa8420776c0018c16",
+      "manifest.json": "6690b2aa8d09e168fcbbae887944146360d2b72aaa2ccff3bcc821ecf8c2dd4e"
+    },
+    "scope": "Community high-burden weeks, not individual infection or benefit of WFH.",
+    "frozen_at": "2026-09-21T07:05:51.857570+00:00"
+  },
+  "metrics": [
+    {
+      "policy": "high_burden",
+      "model": "TabPFN-3.5",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 202,
+      "true_alerts": 167,
+      "false_alerts": 35,
+      "missed_events": 8,
+      "true_negatives": 198,
+      "recall": 0.9542857142857143,
+      "precision": 0.8267326732673267,
+      "false_positive_rate": 0.15021459227467812,
+      "false_discovery_rate": 0.17326732673267325,
+      "false_alerts_per_100_region_weeks": 8.57843137254902,
+      "alert_rate": 0.4950980392156863,
+      "f1": 0.8859416445623343
+    },
+    {
+      "policy": "high_burden",
+      "model": "LightGBM full-history",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 195,
+      "true_alerts": 161,
+      "false_alerts": 34,
+      "missed_events": 14,
+      "true_negatives": 199,
+      "recall": 0.92,
+      "precision": 0.8256410256410256,
+      "false_positive_rate": 0.1459227467811159,
+      "false_discovery_rate": 0.17435897435897435,
+      "false_alerts_per_100_region_weeks": 8.333333333333334,
+      "alert_rate": 0.47794117647058826,
+      "f1": 0.8702702702702703
+    },
+    {
+      "policy": "high_burden",
+      "model": "LightGBM",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 194,
+      "true_alerts": 158,
+      "false_alerts": 36,
+      "missed_events": 17,
+      "true_negatives": 197,
+      "recall": 0.9028571428571428,
+      "precision": 0.8144329896907216,
+      "false_positive_rate": 0.15450643776824036,
+      "false_discovery_rate": 0.18556701030927836,
+      "false_alerts_per_100_region_weeks": 8.823529411764707,
+      "alert_rate": 0.47549019607843135,
+      "f1": 0.8563685636856369
+    },
+    {
+      "policy": "high_burden",
+      "model": "XGBoost full-history",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 191,
+      "true_alerts": 153,
+      "false_alerts": 38,
+      "missed_events": 22,
+      "true_negatives": 195,
+      "recall": 0.8742857142857143,
+      "precision": 0.8010471204188482,
+      "false_positive_rate": 0.1630901287553648,
+      "false_discovery_rate": 0.19895287958115182,
+      "false_alerts_per_100_region_weeks": 9.313725490196079,
+      "alert_rate": 0.4681372549019608,
+      "f1": 0.8360655737704918
+    },
+    {
+      "policy": "high_burden",
+      "model": "XGBoost",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 183,
+      "true_alerts": 150,
+      "false_alerts": 33,
+      "missed_events": 25,
+      "true_negatives": 200,
+      "recall": 0.8571428571428571,
+      "precision": 0.819672131147541,
+      "false_positive_rate": 0.14163090128755365,
+      "false_discovery_rate": 0.18032786885245902,
+      "false_alerts_per_100_region_weeks": 8.088235294117647,
+      "alert_rate": 0.4485294117647059,
+      "f1": 0.8379888268156425
+    },
+    {
+      "policy": "high_burden",
+      "model": "Persistence",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 196,
+      "true_alerts": 146,
+      "false_alerts": 50,
+      "missed_events": 29,
+      "true_negatives": 183,
+      "recall": 0.8342857142857143,
+      "precision": 0.7448979591836735,
+      "false_positive_rate": 0.2145922746781116,
+      "false_discovery_rate": 0.25510204081632654,
+      "false_alerts_per_100_region_weeks": 12.254901960784315,
+      "alert_rate": 0.4803921568627451,
+      "f1": 0.7870619946091644
+    },
+    {
+      "policy": "high_burden",
+      "model": "Seasonal naive",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 207,
+      "true_alerts": 162,
+      "false_alerts": 45,
+      "missed_events": 13,
+      "true_negatives": 188,
+      "recall": 0.9257142857142857,
+      "precision": 0.782608695652174,
+      "false_positive_rate": 0.19313304721030042,
+      "false_discovery_rate": 0.21739130434782608,
+      "false_alerts_per_100_region_weeks": 11.029411764705882,
+      "alert_rate": 0.5073529411764706,
+      "f1": 0.8481675392670157
+    },
+    {
+      "policy": "high_burden",
+      "model": "Recent mean",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 192,
+      "true_alerts": 139,
+      "false_alerts": 53,
+      "missed_events": 36,
+      "true_negatives": 180,
+      "recall": 0.7942857142857143,
+      "precision": 0.7239583333333334,
+      "false_positive_rate": 0.22746781115879827,
+      "false_discovery_rate": 0.2760416666666667,
+      "false_alerts_per_100_region_weeks": 12.990196078431373,
+      "alert_rate": 0.47058823529411764,
+      "f1": 0.7574931880108992
+    },
+    {
+      "policy": "high_burden",
+      "model": "Recent trend",
+      "region_weeks": 408,
+      "events": 175,
+      "alerts": 195,
+      "true_alerts": 128,
+      "false_alerts": 67,
+      "missed_events": 47,
+      "true_negatives": 166,
+      "recall": 0.7314285714285714,
+      "precision": 0.6564102564102564,
+      "false_positive_rate": 0.2875536480686695,
+      "false_discovery_rate": 0.3435897435897436,
+      "false_alerts_per_100_region_weeks": 16.42156862745098,
+      "alert_rate": 0.47794117647058826,
+      "f1": 0.6918918918918919
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "TabPFN-3.5",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 218,
+      "true_alerts": 143,
+      "false_alerts": 75,
+      "missed_events": 52,
+      "true_negatives": 138,
+      "recall": 0.7333333333333333,
+      "precision": 0.6559633027522935,
+      "false_positive_rate": 0.352112676056338,
+      "false_discovery_rate": 0.3440366972477064,
+      "false_alerts_per_100_region_weeks": 18.38235294117647,
+      "alert_rate": 0.5343137254901961,
+      "f1": 0.6924939467312349
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "LightGBM full-history",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 210,
+      "true_alerts": 139,
+      "false_alerts": 71,
+      "missed_events": 56,
+      "true_negatives": 142,
+      "recall": 0.7128205128205128,
+      "precision": 0.6619047619047619,
+      "false_positive_rate": 0.3333333333333333,
+      "false_discovery_rate": 0.3380952380952381,
+      "false_alerts_per_100_region_weeks": 17.401960784313726,
+      "alert_rate": 0.5147058823529411,
+      "f1": 0.6864197530864198
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "LightGBM",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 231,
+      "true_alerts": 143,
+      "false_alerts": 88,
+      "missed_events": 52,
+      "true_negatives": 125,
+      "recall": 0.7333333333333333,
+      "precision": 0.6190476190476191,
+      "false_positive_rate": 0.4131455399061033,
+      "false_discovery_rate": 0.38095238095238093,
+      "false_alerts_per_100_region_weeks": 21.568627450980394,
+      "alert_rate": 0.5661764705882353,
+      "f1": 0.6713615023474179
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "XGBoost full-history",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 217,
+      "true_alerts": 126,
+      "false_alerts": 91,
+      "missed_events": 69,
+      "true_negatives": 122,
+      "recall": 0.6461538461538462,
+      "precision": 0.5806451612903226,
+      "false_positive_rate": 0.4272300469483568,
+      "false_discovery_rate": 0.41935483870967744,
+      "false_alerts_per_100_region_weeks": 22.30392156862745,
+      "alert_rate": 0.5318627450980392,
+      "f1": 0.6116504854368932
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "XGBoost",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 229,
+      "true_alerts": 135,
+      "false_alerts": 94,
+      "missed_events": 60,
+      "true_negatives": 119,
+      "recall": 0.6923076923076923,
+      "precision": 0.5895196506550219,
+      "false_positive_rate": 0.4413145539906103,
+      "false_discovery_rate": 0.4104803493449782,
+      "false_alerts_per_100_region_weeks": 23.03921568627451,
+      "alert_rate": 0.5612745098039216,
+      "f1": 0.6367924528301887
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "Persistence",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 207,
+      "true_alerts": 121,
+      "false_alerts": 86,
+      "missed_events": 74,
+      "true_negatives": 127,
+      "recall": 0.6205128205128205,
+      "precision": 0.5845410628019324,
+      "false_positive_rate": 0.40375586854460094,
+      "false_discovery_rate": 0.41545893719806765,
+      "false_alerts_per_100_region_weeks": 21.07843137254902,
+      "alert_rate": 0.5073529411764706,
+      "f1": 0.6019900497512438
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "Seasonal naive",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 232,
+      "true_alerts": 143,
+      "false_alerts": 89,
+      "missed_events": 52,
+      "true_negatives": 124,
+      "recall": 0.7333333333333333,
+      "precision": 0.6163793103448276,
+      "false_positive_rate": 0.41784037558685444,
+      "false_discovery_rate": 0.38362068965517243,
+      "false_alerts_per_100_region_weeks": 21.813725490196077,
+      "alert_rate": 0.5686274509803921,
+      "f1": 0.6697892271662763
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "Recent mean",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 208,
+      "true_alerts": 103,
+      "false_alerts": 105,
+      "missed_events": 92,
+      "true_negatives": 108,
+      "recall": 0.5282051282051282,
+      "precision": 0.4951923076923077,
+      "false_positive_rate": 0.49295774647887325,
+      "false_discovery_rate": 0.5048076923076923,
+      "false_alerts_per_100_region_weeks": 25.735294117647058,
+      "alert_rate": 0.5098039215686274,
+      "f1": 0.511166253101737
+    },
+    {
+      "policy": "seasonal_event",
+      "model": "Recent trend",
+      "region_weeks": 408,
+      "events": 195,
+      "alerts": 210,
+      "true_alerts": 131,
+      "false_alerts": 79,
+      "missed_events": 64,
+      "true_negatives": 134,
+      "recall": 0.6717948717948717,
+      "precision": 0.6238095238095238,
+      "false_positive_rate": 0.37089201877934275,
+      "false_discovery_rate": 0.3761904761904762,
+      "false_alerts_per_100_region_weeks": 19.362745098039216,
+      "alert_rate": 0.5147058823529411,
+      "f1": 0.6469135802469136
+    }
+  ],
+  "coverage": [
+    {
+      "model": "TabPFN-3.5",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    },
+    {
+      "model": "LightGBM full-history",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    },
+    {
+      "model": "LightGBM",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    },
+    {
+      "model": "XGBoost full-history",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    },
+    {
+      "model": "XGBoost",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    },
+    {
+      "model": "Persistence",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    },
+    {
+      "model": "Seasonal naive",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    },
+    {
+      "model": "Recent mean",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    },
+    {
+      "model": "Recent trend",
+      "planned_region_weeks": 416,
+      "usable_predictions": 408,
+      "unavailable_region_weeks": 8,
+      "matched_region_weeks": 408,
+      "unmatched_usable_predictions": 0,
+      "matched_coverage": 0.9807692307692307
+    }
+  ],
+  "paired_intervals": [
+    {
+      "policy": "high_burden",
+      "comparator": "LightGBM full-history",
+      "metric": "recall",
+      "positive_means": "TabPFN advantage",
+      "difference": 0.03428571428571425,
+      "ci95": [
+        -0.010161635052097169,
+        0.09033724340175946
+      ],
+      "valid_replicates": 2000
+    },
+    {
+      "policy": "high_burden",
+      "comparator": "LightGBM full-history",
+      "metric": "precision",
+      "positive_means": "TabPFN advantage",
+      "difference": 0.0010916476263010955,
+      "ci95": [
+        -0.02589358311381138,
+        0.034743236468159175
+      ],
+      "valid_replicates": 2000
+    },
+    {
+      "policy": "high_burden",
+      "comparator": "LightGBM full-history",
+      "metric": "false_positive_rate",
+      "positive_means": "TabPFN advantage",
+      "difference": -0.004291845493562235,
+      "ci95": [
+        -0.03535727093419399,
+        0.028174008590550373
+      ],
+      "valid_replicates": 2000
+    },
+    {
+      "policy": "high_burden",
+      "comparator": "LightGBM full-history",
+      "metric": "f1",
+      "positive_means": "TabPFN advantage",
+      "difference": 0.015671374292064,
+      "ci95": [
+        -0.012245682003568636,
+        0.04829419957395616
+      ],
+      "valid_replicates": 2000
+    },
+    {
+      "policy": "seasonal_event",
+      "comparator": "LightGBM full-history",
+      "metric": "recall",
+      "positive_means": "TabPFN advantage",
+      "difference": 0.02051282051282044,
+      "ci95": [
+        -0.07175073706116987,
+        0.12091565349544055
+      ],
+      "valid_replicates": 2000
+    },
+    {
+      "policy": "seasonal_event",
+      "comparator": "LightGBM full-history",
+      "metric": "precision",
+      "positive_means": "TabPFN advantage",
+      "difference": -0.0059414591524683535,
+      "ci95": [
+        -0.06410483374384236,
+        0.0479929560476672
+      ],
+      "valid_replicates": 2000
+    },
+    {
+      "policy": "seasonal_event",
+      "comparator": "LightGBM full-history",
+      "metric": "false_positive_rate",
+      "positive_means": "TabPFN advantage",
+      "difference": -0.01877934272300469,
+      "ci95": [
+        -0.10426920953958015,
+        0.05102694924123492
+      ],
+      "valid_replicates": 2000
+    },
+    {
+      "policy": "seasonal_event",
+      "comparator": "LightGBM full-history",
+      "metric": "f1",
+      "positive_means": "TabPFN advantage",
+      "difference": 0.006074193644815096,
+      "ci95": [
+        -0.053475395517166395,
+        0.07068076003855643
+      ],
+      "valid_replicates": 2000
+    }
+  ],
+  "limitations": [
+    "Exploratory extension of an already-inspected retrospective test; not a preregistered alert trial.",
+    "High burden is a historical surveillance percentile, not a clinically validated danger threshold.",
+    "Four macroregions; repeated regional weeks are correlated. Intervals retain calendar blocks and regions together.",
+    "No individual exposure outcomes, avoided infections, or causal benefit of working from home were measured.",
+    "The seasonal probability diagnostic does not override the failed public probability-readiness gate.",
+    "Unavailable forecasts abstain; performance metrics use common available rows and disclose reduced coverage.",
+    "Historical source vintages were used for testing; early development/training features were reconstructed."
+  ]
+}

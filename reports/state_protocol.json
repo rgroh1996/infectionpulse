@@ -1,0 +1,116 @@
+{
+  "frozen_at": "2026-09-21T07:48:06.172491+00:00",
+  "protocol": {
+    "schema_version": 1,
+    "status": "frozen_before_state_model_comparisons",
+    "primary_indicator": "influenza",
+    "secondary_indicator": "rsv",
+    "target": "all-age state notification-week incidence per 100000",
+    "geography": "16 German states; no individual infection outcome",
+    "development_targets": [
+      "2024-11-04",
+      "2025-01-06",
+      "2025-03-03",
+      "2025-05-05"
+    ],
+    "test_targets": [
+      "2025-08-04",
+      "2025-09-01",
+      "2025-10-06",
+      "2025-11-03",
+      "2025-12-01",
+      "2026-01-05",
+      "2026-02-02",
+      "2026-03-02",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-06-01",
+      "2026-07-06"
+    ],
+    "sampling": "first Monday of each month; 12 origins, not a weekly backtest",
+    "issue": "Friday 10:00 Europe/Berlin before target Monday",
+    "max_publication_age_days": 10,
+    "allowed_observation_to_target_steps": [
+      2,
+      3
+    ],
+    "training_label_maturity_days": 35,
+    "context_rows": 2000,
+    "seed": 42,
+    "features": [
+      "incidence",
+      "inc_lag_1",
+      "inc_lag_2",
+      "inc_lag_3",
+      "inc_lag_4",
+      "inc_lag_52",
+      "latest_change",
+      "sin_week",
+      "cos_week",
+      "forecast_steps",
+      "state_01",
+      "state_02",
+      "state_03",
+      "state_04",
+      "state_05",
+      "state_06",
+      "state_07",
+      "state_08",
+      "state_09",
+      "state_10",
+      "state_11",
+      "state_12",
+      "state_13",
+      "state_14",
+      "state_15",
+      "state_16"
+    ],
+    "models": [
+      "Persistence",
+      "Seasonal naive",
+      "LightGBM",
+      "LightGBM full-history",
+      "TabPFN-3.5"
+    ],
+    "tree_configs": [
+      {
+        "n_estimators": 120,
+        "learning_rate": 0.05,
+        "max_depth": 2
+      },
+      {
+        "n_estimators": 240,
+        "learning_rate": 0.05,
+        "max_depth": 2
+      },
+      {
+        "n_estimators": 120,
+        "learning_rate": 0.05,
+        "max_depth": 3
+      },
+      {
+        "n_estimators": 240,
+        "learning_rate": 0.03,
+        "max_depth": 3
+      }
+    ],
+    "tuning": "minimum pooled development MAE, separately by context regime and disease",
+    "primary_metric": "MAE, separately by disease on common state-target rows",
+    "secondary_metrics": [
+      "RMSE",
+      "q10-q90 coverage",
+      "mean interval width"
+    ],
+    "uncertainty": "descriptive pilot only; 12 correlated seasonal origins, no superiority significance claim",
+    "rsv_revision_break": "2026-02-23",
+    "rsv_reporting": "report all test rows and separate pre/post correction issue regimes",
+    "deployment": "research artifacts only; does not drive the personal precaution score",
+    "limitations": [
+      "Issue-time training histories include revisions already present in that release, not first-report historical features.",
+      "Mature labels are pinned to a later snapshot; this evaluates eventual notifications, not all infections.",
+      "RSV releases omitted infections March 2025-February 2026; RKI corrected history on 23 February 2026.",
+      "Raw predictive intervals have no coverage guarantee or public probability-readiness claim.",
+      "Missing incidence is never converted to zero; seasonal-naive missing values use explicit persistence fallback."
+    ]
+  }
+}

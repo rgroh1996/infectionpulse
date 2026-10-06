@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "run_id": "65cf524d3927a4b8",
+  "evidence_status": "exploratory_retrospective",
+  "disclosure": "Forecast accuracy on this test was inspected before this alert analysis. This protocol was frozen before computing alert comparisons, not before the original test. No confirmatory alert-superiority claim is permitted.",
+  "policies": {
+    "high_burden": {
+      "alert": "q50 >= reference_p80",
+      "event": "target_incidence >= reference_p80",
+      "purpose": "App high-community-burden trigger, before activity rules."
+    },
+    "seasonal_event": {
+      "alert": "probability >= 0.5",
+      "event": "target_incidence > seasonal_reference_p80",
+      "purpose": "Research-only seasonal exceedance; public probabilities remain gated."
+    }
+  },
+  "models": [
+    "TabPFN-3.5",
+    "LightGBM full-history",
+    "LightGBM",
+    "XGBoost full-history",
+    "XGBoost",
+    "Persistence",
+    "Seasonal naive",
+    "Recent mean",
+    "Recent trend"
+  ],
+  "threshold_selection": "Fixed existing policy; no tuning on test or development.",
+  "comparison": "All models on the same complete region-weeks; no missing=negative.",
+  "primary_comparator": "LightGBM full-history",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20260921,
+    "block_weeks": 4,
+    "method": "moving calendar-week blocks, all regions together"
+  },
+  "inputs_sha256": {
+    "predictions.parquet": "e3f813f65fff127a145b3a72e5dc671f4fc3a2ec958a33a9a3814229c66820e8",
+    "coverage_rows.parquet": "6072901bcb4f8bc5bdd9ef511e7e5e06762780d28d44428aa8420776c0018c16",
+    "manifest.json": "6690b2aa8d09e168fcbbae887944146360d2b72aaa2ccff3bcc821ecf8c2dd4e"
+  },
+  "scope": "Community high-burden weeks, not individual infection or benefit of WFH.",
+  "frozen_at": "2026-09-21T07:05:51.857570+00:00"
+}

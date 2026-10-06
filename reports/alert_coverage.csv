@@ -1,0 +1,10 @@
+model,planned_region_weeks,usable_predictions,unavailable_region_weeks,matched_region_weeks,unmatched_usable_predictions,matched_coverage
+TabPFN-3.5,416,408,8,408,0,0.9807692307692307
+LightGBM full-history,416,408,8,408,0,0.9807692307692307
+LightGBM,416,408,8,408,0,0.9807692307692307
+XGBoost full-history,416,408,8,408,0,0.9807692307692307
+XGBoost,416,408,8,408,0,0.9807692307692307
+Persistence,416,408,8,408,0,0.9807692307692307
+Seasonal naive,416,408,8,408,0,0.9807692307692307
+Recent mean,416,408,8,408,0,0.9807692307692307
+Recent trend,416,408,8,408,0,0.9807692307692307

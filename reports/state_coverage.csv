@@ -1,0 +1,121 @@
+indicator,target,model,planned,predicted,status
+influenza,2025-08-04,Persistence,16,14,partial_or_not_run
+influenza,2025-08-04,Seasonal naive,16,14,partial_or_not_run
+influenza,2025-08-04,LightGBM,16,14,partial_or_not_run
+influenza,2025-08-04,LightGBM full-history,16,14,partial_or_not_run
+influenza,2025-08-04,TabPFN-3.5,16,14,partial_or_not_run
+influenza,2025-09-01,Persistence,16,14,partial_or_not_run
+influenza,2025-09-01,Seasonal naive,16,14,partial_or_not_run
+influenza,2025-09-01,LightGBM,16,14,partial_or_not_run
+influenza,2025-09-01,LightGBM full-history,16,14,partial_or_not_run
+influenza,2025-09-01,TabPFN-3.5,16,14,partial_or_not_run
+influenza,2025-10-06,Persistence,16,15,partial_or_not_run
+influenza,2025-10-06,Seasonal naive,16,15,partial_or_not_run
+influenza,2025-10-06,LightGBM,16,15,partial_or_not_run
+influenza,2025-10-06,LightGBM full-history,16,15,partial_or_not_run
+influenza,2025-10-06,TabPFN-3.5,16,15,partial_or_not_run
+influenza,2025-11-03,Persistence,16,16,complete
+influenza,2025-11-03,Seasonal naive,16,16,complete
+influenza,2025-11-03,LightGBM,16,16,complete
+influenza,2025-11-03,LightGBM full-history,16,16,complete
+influenza,2025-11-03,TabPFN-3.5,16,16,complete
+influenza,2025-12-01,Persistence,16,16,complete
+influenza,2025-12-01,Seasonal naive,16,16,complete
+influenza,2025-12-01,LightGBM,16,16,complete
+influenza,2025-12-01,LightGBM full-history,16,16,complete
+influenza,2025-12-01,TabPFN-3.5,16,16,complete
+influenza,2026-01-05,Persistence,16,16,complete
+influenza,2026-01-05,Seasonal naive,16,16,complete
+influenza,2026-01-05,LightGBM,16,16,complete
+influenza,2026-01-05,LightGBM full-history,16,16,complete
+influenza,2026-01-05,TabPFN-3.5,16,16,complete
+influenza,2026-02-02,Persistence,16,16,complete
+influenza,2026-02-02,Seasonal naive,16,16,complete
+influenza,2026-02-02,LightGBM,16,16,complete
+influenza,2026-02-02,LightGBM full-history,16,16,complete
+influenza,2026-02-02,TabPFN-3.5,16,16,complete
+influenza,2026-03-02,Persistence,16,16,complete
+influenza,2026-03-02,Seasonal naive,16,16,complete
+influenza,2026-03-02,LightGBM,16,16,complete
+influenza,2026-03-02,LightGBM full-history,16,16,complete
+influenza,2026-03-02,TabPFN-3.5,16,16,complete
+influenza,2026-04-06,Persistence,16,16,complete
+influenza,2026-04-06,Seasonal naive,16,16,complete
+influenza,2026-04-06,LightGBM,16,16,complete
+influenza,2026-04-06,LightGBM full-history,16,16,complete
+influenza,2026-04-06,TabPFN-3.5,16,16,complete
+influenza,2026-05-04,Persistence,16,15,partial_or_not_run
+influenza,2026-05-04,Seasonal naive,16,15,partial_or_not_run
+influenza,2026-05-04,LightGBM,16,15,partial_or_not_run
+influenza,2026-05-04,LightGBM full-history,16,15,partial_or_not_run
+influenza,2026-05-04,TabPFN-3.5,16,15,partial_or_not_run
+influenza,2026-06-01,Persistence,16,14,partial_or_not_run
+influenza,2026-06-01,Seasonal naive,16,14,partial_or_not_run
+influenza,2026-06-01,LightGBM,16,14,partial_or_not_run
+influenza,2026-06-01,LightGBM full-history,16,14,partial_or_not_run
+influenza,2026-06-01,TabPFN-3.5,16,14,partial_or_not_run
+influenza,2026-07-06,Persistence,16,13,partial_or_not_run
+influenza,2026-07-06,Seasonal naive,16,13,partial_or_not_run
+influenza,2026-07-06,LightGBM,16,13,partial_or_not_run
+influenza,2026-07-06,LightGBM full-history,16,13,partial_or_not_run
+influenza,2026-07-06,TabPFN-3.5,16,13,partial_or_not_run
+rsv,2025-08-04,Persistence,16,16,complete
+rsv,2025-08-04,Seasonal naive,16,16,complete
+rsv,2025-08-04,LightGBM,16,16,complete
+rsv,2025-08-04,LightGBM full-history,16,16,complete
+rsv,2025-08-04,TabPFN-3.5,16,16,complete
+rsv,2025-09-01,Persistence,16,16,complete
+rsv,2025-09-01,Seasonal naive,16,16,complete
+rsv,2025-09-01,LightGBM,16,16,complete
+rsv,2025-09-01,LightGBM full-history,16,16,complete
+rsv,2025-09-01,TabPFN-3.5,16,16,complete
+rsv,2025-10-06,Persistence,16,16,complete
+rsv,2025-10-06,Seasonal naive,16,16,complete
+rsv,2025-10-06,LightGBM,16,16,complete
+rsv,2025-10-06,LightGBM full-history,16,16,complete
+rsv,2025-10-06,TabPFN-3.5,16,16,complete
+rsv,2025-11-03,Persistence,16,16,complete
+rsv,2025-11-03,Seasonal naive,16,16,complete
+rsv,2025-11-03,LightGBM,16,16,complete
+rsv,2025-11-03,LightGBM full-history,16,16,complete
+rsv,2025-11-03,TabPFN-3.5,16,16,complete
+rsv,2025-12-01,Persistence,16,16,complete
+rsv,2025-12-01,Seasonal naive,16,16,complete
+rsv,2025-12-01,LightGBM,16,16,complete
+rsv,2025-12-01,LightGBM full-history,16,16,complete
+rsv,2025-12-01,TabPFN-3.5,16,16,complete
+rsv,2026-01-05,Persistence,16,16,complete
+rsv,2026-01-05,Seasonal naive,16,16,complete
+rsv,2026-01-05,LightGBM,16,16,complete
+rsv,2026-01-05,LightGBM full-history,16,16,complete
+rsv,2026-01-05,TabPFN-3.5,16,16,complete
+rsv,2026-02-02,Persistence,16,16,complete
+rsv,2026-02-02,Seasonal naive,16,16,complete
+rsv,2026-02-02,LightGBM,16,16,complete
+rsv,2026-02-02,LightGBM full-history,16,16,complete
+rsv,2026-02-02,TabPFN-3.5,16,16,complete
+rsv,2026-03-02,Persistence,16,16,complete
+rsv,2026-03-02,Seasonal naive,16,16,complete
+rsv,2026-03-02,LightGBM,16,16,complete
+rsv,2026-03-02,LightGBM full-history,16,16,complete
+rsv,2026-03-02,TabPFN-3.5,16,16,complete
+rsv,2026-04-06,Persistence,16,16,complete
+rsv,2026-04-06,Seasonal naive,16,16,complete
+rsv,2026-04-06,LightGBM,16,16,complete
+rsv,2026-04-06,LightGBM full-history,16,16,complete
+rsv,2026-04-06,TabPFN-3.5,16,16,complete
+rsv,2026-05-04,Persistence,16,16,complete
+rsv,2026-05-04,Seasonal naive,16,16,complete
+rsv,2026-05-04,LightGBM,16,16,complete
+rsv,2026-05-04,LightGBM full-history,16,16,complete
+rsv,2026-05-04,TabPFN-3.5,16,16,complete
+rsv,2026-06-01,Persistence,16,16,complete
+rsv,2026-06-01,Seasonal naive,16,16,complete
+rsv,2026-06-01,LightGBM,16,16,complete
+rsv,2026-06-01,LightGBM full-history,16,16,complete
+rsv,2026-06-01,TabPFN-3.5,16,16,complete
+rsv,2026-07-06,Persistence,16,16,complete
+rsv,2026-07-06,Seasonal naive,16,16,complete
+rsv,2026-07-06,LightGBM,16,16,complete
+rsv,2026-07-06,LightGBM full-history,16,16,complete
+rsv,2026-07-06,TabPFN-3.5,16,16,complete

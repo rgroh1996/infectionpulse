@@ -1,0 +1,270 @@
+{
+  "run_id": "65cf524d3927a4b8",
+  "status": "complete",
+  "planned_rows": 416,
+  "eligible_rows": 408,
+  "truth_available_rows": 408,
+  "abstention_counts": {
+    "source_stale": 8
+  },
+  "predictions_per_model": {
+    "Persistence": 408,
+    "Seasonal naive": 408,
+    "Recent mean": 408,
+    "Recent trend": 408,
+    "LightGBM": 408,
+    "XGBoost": 408,
+    "LightGBM full-history": 408,
+    "XGBoost full-history": 408,
+    "TabPFN-3.5": 408
+  },
+  "summary": [
+    {
+      "model": "LightGBM",
+      "rows": 408,
+      "events": 195,
+      "mae": 899.0946636133235,
+      "rmse": 1136.651308025662,
+      "pinball": 285.290934312939,
+      "coverage80": 0.8112745098039216,
+      "interval_width": 2948.661757841688,
+      "raw_coverage80": 0.7867647058823529,
+      "raw_interval_width": 2783.9285328324586,
+      "brier": 0.22241423117547776,
+      "brier_raw": 0.22241423117547776,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.7028952545875014,
+      "brier_climatology": 0.25042277299370386
+    },
+    {
+      "model": "LightGBM full-history",
+      "rows": 408,
+      "events": 195,
+      "mae": 838.920458420941,
+      "rmse": 1054.3241071701475,
+      "pinball": 266.087316006518,
+      "coverage80": 0.8406862745098039,
+      "interval_width": 2962.2660908103558,
+      "raw_coverage80": 0.8406862745098039,
+      "raw_interval_width": 2951.258825720849,
+      "brier": 0.20528674211507955,
+      "brier_raw": 0.20528674211507955,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.7245289077092283,
+      "brier_climatology": 0.25042277299370386
+    },
+    {
+      "model": "Persistence",
+      "rows": 408,
+      "events": 195,
+      "mae": 1240.1421568627452,
+      "rmse": 1571.1144087220757,
+      "pinball": 391.00492647058826,
+      "coverage80": 0.7794117647058824,
+      "interval_width": 3681.789950980393,
+      "raw_coverage80": 0.7794117647058824,
+      "raw_interval_width": 3681.789950980393,
+      "brier": 0.2524804959428298,
+      "brier_raw": 0.2524804959428298,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.6605464170737622,
+      "brier_climatology": 0.25042277299370386
+    },
+    {
+      "model": "Recent mean",
+      "rows": 408,
+      "events": 195,
+      "mae": 1328.0220588235295,
+      "rmse": 1665.4352090242105,
+      "pinball": 416.565697167756,
+      "coverage80": 0.7671568627450981,
+      "interval_width": 3928.949673202615,
+      "raw_coverage80": 0.7671568627450981,
+      "raw_interval_width": 3928.949673202615,
+      "brier": 0.30071406104971576,
+      "brier_raw": 0.30071406104971576,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.5382281747055466,
+      "brier_climatology": 0.25042277299370386
+    },
+    {
+      "model": "Recent trend",
+      "rows": 408,
+      "events": 195,
+      "mae": 2402.8210784313724,
+      "rmse": 3031.6206656331724,
+      "pinball": 727.3945506535947,
+      "coverage80": 0.8333333333333334,
+      "interval_width": 7107.9958333333325,
+      "raw_coverage80": 0.8333333333333334,
+      "raw_interval_width": 7107.9958333333325,
+      "brier": 0.23858529982814133,
+      "brier_raw": 0.23858529982814133,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.6786366163393713,
+      "brier_climatology": 0.25042277299370386
+    },
+    {
+      "model": "Seasonal naive",
+      "rows": 408,
+      "events": 195,
+      "mae": 1075.0343137254902,
+      "rmse": 1325.463354054414,
+      "pinball": 335.1669689542484,
+      "coverage80": 0.821078431372549,
+      "interval_width": 3688.9379901960788,
+      "raw_coverage80": 0.821078431372549,
+      "raw_interval_width": 3688.9379901960788,
+      "brier": 0.23246844272102332,
+      "brier_raw": 0.23246844272102332,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.6751475892543215,
+      "brier_climatology": 0.25042277299370386
+    },
+    {
+      "model": "TabPFN-3.5",
+      "rows": 408,
+      "events": 195,
+      "mae": 809.9757584634021,
+      "rmse": 1029.8212799277635,
+      "pinball": 261.1761832331669,
+      "coverage80": 0.8651960784313726,
+      "interval_width": 3093.814894640072,
+      "raw_coverage80": 0.8651960784313726,
+      "raw_interval_width": 3093.814894640072,
+      "brier": 0.20002214757879466,
+      "brier_raw": 0.20002214757879466,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.6958597416826234,
+      "brier_climatology": 0.25042277299370386
+    },
+    {
+      "model": "XGBoost",
+      "rows": 408,
+      "events": 195,
+      "mae": 965.1319229261362,
+      "rmse": 1236.869378526152,
+      "pinball": 304.3556672570641,
+      "coverage80": 0.8259803921568627,
+      "interval_width": 3321.140067965348,
+      "raw_coverage80": 0.821078431372549,
+      "raw_interval_width": 3295.476983560795,
+      "brier": 0.23383935685857946,
+      "brier_raw": 0.23383935685857946,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.6694089671224387,
+      "brier_climatology": 0.25042277299370386
+    },
+    {
+      "model": "XGBoost full-history",
+      "rows": 408,
+      "events": 195,
+      "mae": 947.0895609394797,
+      "rmse": 1206.9757832409434,
+      "pinball": 301.6310350666483,
+      "coverage80": 0.8504901960784313,
+      "interval_width": 3479.809653499482,
+      "raw_coverage80": 0.8504901960784313,
+      "raw_interval_width": 3479.809653499482,
+      "brier": 0.23038273321717534,
+      "brier_raw": 0.23038273321717534,
+      "event_rate": 0.47794117647058826,
+      "average_precision": 0.6614108401119756,
+      "brier_climatology": 0.25042277299370386
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "competitor": "Persistence",
+      "paired_rows": 408,
+      "mae_improvement": 430.16639839934294,
+      "ci95": [
+        298.9641132009959,
+        580.9436721087424
+      ],
+      "method": "paired moving four-week blocks; all macroregions together"
+    },
+    {
+      "competitor": "Seasonal naive",
+      "paired_rows": 408,
+      "mae_improvement": 265.0585552620881,
+      "ci95": [
+        114.24911794189984,
+        424.5655326016313
+      ],
+      "method": "paired moving four-week blocks; all macroregions together"
+    },
+    {
+      "competitor": "Recent mean",
+      "paired_rows": 408,
+      "mae_improvement": 518.0463003601272,
+      "ci95": [
+        353.15802820063465,
+        693.7363894200098
+      ],
+      "method": "paired moving four-week blocks; all macroregions together"
+    },
+    {
+      "competitor": "Recent trend",
+      "paired_rows": 408,
+      "mae_improvement": 1592.8453199679707,
+      "ci95": [
+        1358.2505547723288,
+        1917.371725579367
+      ],
+      "method": "paired moving four-week blocks; all macroregions together"
+    },
+    {
+      "competitor": "LightGBM",
+      "paired_rows": 408,
+      "mae_improvement": 89.11890514992132,
+      "ci95": [
+        2.0057783248897736,
+        181.10890788506762
+      ],
+      "method": "paired moving four-week blocks; all macroregions together"
+    },
+    {
+      "competitor": "XGBoost",
+      "paired_rows": 408,
+      "mae_improvement": 155.15616446273407,
+      "ci95": [
+        53.244739033552065,
+        268.2669923253796
+      ],
+      "method": "paired moving four-week blocks; all macroregions together"
+    },
+    {
+      "competitor": "LightGBM full-history",
+      "paired_rows": 408,
+      "mae_improvement": 28.944699957538806,
+      "ci95": [
+        -53.64575311640252,
+        116.90749649443974
+      ],
+      "method": "paired moving four-week blocks; all macroregions together"
+    },
+    {
+      "competitor": "XGBoost full-history",
+      "paired_rows": 408,
+      "mae_improvement": 137.1138024760776,
+      "ci95": [
+        36.54769137130576,
+        241.55853408483574
+      ],
+      "method": "paired moving four-week blocks; all macroregions together"
+    }
+  ],
+  "probability_readiness": {
+    "ready": false,
+    "checks": {
+      "at_least_20_events": true,
+      "at_least_20_nonevents": true,
+      "brier_beats_seasonal_frequency": true,
+      "precision_recall_lift": true,
+      "reliability_error_at_most_005": "False"
+    },
+    "reliability_ece": 0.05324006769592867,
+    "validation": "locked retrospective community-event evaluation; not individual infection probability"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "run_id": "23e8a1b6842ab06e",
+  "status": "complete",
+  "complete_models": [
+    "Persistence",
+    "Seasonal naive",
+    "LightGBM",
+    "LightGBM full-history",
+    "TabPFN-3.5"
+  ],
+  "planned_rows_per_model": 384,
+  "matched_rows_per_model": 370,
+  "summary": [
+    {
+      "indicator": "influenza",
+      "regime": "all",
+      "model": "LightGBM",
+      "rows": 178,
+      "origins": 12,
+      "mae": 3.2884837907,
+      "rmse": 7.6166811869,
+      "interval_rows": 178,
+      "coverage_80": 0.6460674157,
+      "mean_interval_width": 6.6911910483
+    },
+    {
+      "indicator": "influenza",
+      "regime": "all",
+      "model": "LightGBM full-history",
+      "rows": 178,
+      "origins": 12,
+      "mae": 3.2672694338,
+      "rmse": 7.6191502522,
+      "interval_rows": 178,
+      "coverage_80": 0.6853932584,
+      "mean_interval_width": 6.9595245515
+    },
+    {
+      "indicator": "influenza",
+      "regime": "all",
+      "model": "Persistence",
+      "rows": 178,
+      "origins": 12,
+      "mae": 4.5135393258,
+      "rmse": 9.2781319858,
+      "interval_rows": 0,
+      "coverage_80": null,
+      "mean_interval_width": null
+    },
+    {
+      "indicator": "influenza",
+      "regime": "all",
+      "model": "Seasonal naive",
+      "rows": 178,
+      "origins": 12,
+      "mae": 7.2934269663,
+      "rmse": 15.9295937054,
+      "interval_rows": 0,
+      "coverage_80": null,
+      "mean_interval_width": null
+    },
+    {
+      "indicator": "influenza",
+      "regime": "all",
+      "model": "TabPFN-3.5",
+      "rows": 178,
+      "origins": 12,
+      "mae": 3.5094401977,
+      "rmse": 7.758348181,
+      "interval_rows": 178,
+      "coverage_80": 0.6292134831,
+      "mean_interval_width": 8.1288064868
+    },
+    {
+      "indicator": "rsv",
+      "regime": "all",
+      "model": "LightGBM",
+      "rows": 192,
+      "origins": 12,
+      "mae": 0.9673625484,
+      "rmse": 2.2628914655,
+      "interval_rows": 192,
+      "coverage_80": 0.6614583333,
+      "mean_interval_width": 0.8941169938
+    },
+    {
+      "indicator": "rsv",
+      "regime": "all",
+      "model": "LightGBM full-history",
+      "rows": 192,
+      "origins": 12,
+      "mae": 0.9689401264,
+      "rmse": 2.2578595471,
+      "interval_rows": 192,
+      "coverage_80": 0.640625,
+      "mean_interval_width": 0.8713651295
+    },
+    {
+      "indicator": "rsv",
+      "regime": "all",
+      "model": "Persistence",
+      "rows": 192,
+      "origins": 12,
+      "mae": 1.1578645833,
+      "rmse": 2.4318870202,
+      "interval_rows": 0,
+      "coverage_80": null,
+      "mean_interval_width": null
+    },
+    {
+      "indicator": "rsv",
+      "regime": "all",
+      "model": "Seasonal naive",
+      "rows": 192,
+      "origins": 12,
+      "mae": 0.5454166667,
+      "rmse": 1.2643670188,
+      "interval_rows": 0,
+      "coverage_80": null,
+      "mean_interval_width": null
+    },
+    {
+      "indicator": "rsv",
+      "regime": "all",
+      "model": "TabPFN-3.5",
+      "rows": 192,
+      "origins": 12,
+      "mae": 0.9316614061,
+      "rmse": 2.2346932537,
+      "interval_rows": 192,
+      "coverage_80": 0.640625,
+      "mean_interval_width": 0.8737672314
+    },
+    {
+      "indicator": "rsv",
+      "regime": "pre_correction",
+      "model": "LightGBM",
+      "rows": 112,
+      "origins": 7,
+      "mae": 1.2149339978,
+      "rmse": 2.7814912545,
+      "interval_rows": 112,
+      "coverage_80": 0.5625,
+      "mean_interval_width": 0.2646715015
+    },
+    {
+      "indicator": "rsv",
+      "regime": "pre_correction",
+      "model": "LightGBM full-history",
+      "rows": 112,
+      "origins": 7,
+      "mae": 1.2149339978,
+      "rmse": 2.7814912545,
+      "interval_rows": 112,
+      "coverage_80": 0.5625,
+      "mean_interval_width": 0.2646715015
+    },
+    {
+      "indicator": "rsv",
+      "regime": "pre_correction",
+      "model": "Persistence",
+      "rows": 112,
+      "origins": 7,
+      "mae": 1.2841964286,
+      "rmse": 2.8258657017,
+      "interval_rows": 0,
+      "coverage_80": null,
+      "mean_interval_width": null
+    },
+    {
+      "indicator": "rsv",
+      "regime": "pre_correction",
+      "model": "Seasonal naive",
+      "rows": 112,
+      "origins": 7,
+      "mae": 0.3583035714,
+      "rmse": 0.7712588272,
+      "interval_rows": 0,
+      "coverage_80": null,
+      "mean_interval_width": null
+    },
+    {
+      "indicator": "rsv",
+      "regime": "pre_correction",
+      "model": "TabPFN-3.5",
+      "rows": 112,
+      "origins": 7,
+      "mae": 1.1827879763,
+      "rmse": 2.7611906365,
+      "interval_rows": 112,
+      "coverage_80": 0.5625,
+      "mean_interval_width": 0.3810157966
+    },
+    {
+      "indicator": "rsv",
+      "regime": "post_correction",
+      "model": "LightGBM",
+      "rows": 80,
+      "origins": 5,
+      "mae": 0.6207625193,
+      "rmse": 1.2075825622,
+      "interval_rows": 80,
+      "coverage_80": 0.8,
+      "mean_interval_width": 1.7753406831
+    },
+    {
+      "indicator": "rsv",
+      "regime": "post_correction",
+      "model": "LightGBM full-history",
+      "rows": 80,
+      "origins": 5,
+      "mae": 0.6245487065,
+      "rmse": 1.1847617162,
+      "interval_rows": 80,
+      "coverage_80": 0.75,
+      "mean_interval_width": 1.7207362087
+    },
+    {
+      "indicator": "rsv",
+      "regime": "post_correction",
+      "model": "Persistence",
+      "rows": 80,
+      "origins": 5,
+      "mae": 0.981,
+      "rmse": 1.7361033955,
+      "interval_rows": 0,
+      "coverage_80": null,
+      "mean_interval_width": null
+    },
+    {
+      "indicator": "rsv",
+      "regime": "post_correction",
+      "model": "Seasonal naive",
+      "rows": 80,
+      "origins": 5,
+      "mae": 0.807375,
+      "rmse": 1.7331824053,
+      "interval_rows": 0,
+      "coverage_80": null,
+      "mean_interval_width": null
+    },
+    {
+      "indicator": "rsv",
+      "regime": "post_correction",
+      "model": "TabPFN-3.5",
+      "rows": 80,
+      "origins": 5,
+      "mae": 0.5800842078,
+      "rmse": 1.1451664631,
+      "interval_rows": 80,
+      "coverage_80": 0.75,
+      "mean_interval_width": 1.5636192401
+    }
+  ],
+  "limitations": [
+    "Issue-time training histories include revisions already present in that release, not first-report historical features.",
+    "Mature labels are pinned to a later snapshot; this evaluates eventual notifications, not all infections.",
+    "RSV releases omitted infections March 2025-February 2026; RKI corrected history on 23 February 2026.",
+    "Raw predictive intervals have no coverage guarantee or public probability-readiness claim.",
+    "Missing incidence is never converted to zero; seasonal-naive missing values use explicit persistence fallback."
+  ],
+  "truth_snapshots": {
+    "influenza/truth": {
+      "sha256": "07c446e3e4dd893dcaaad6730ddbd22cc0a2cf8f45e0ca3ec66e13e70acdd9f5",
+      "source_snapshot_id": "25cf2a0886785c8b5af720c815966af068baf248",
+      "published_at": "2026-09-17T06:00:25+00:00"
+    },
+    "rsv/truth": {
+      "sha256": "2157d552724e16c53e7b52daa59ec0157c9b03b2211222d6ddf64932a394684e",
+      "source_snapshot_id": "551f5b7d470a45b2339daedc990c1a5b4fac9c8a",
+      "published_at": "2026-09-17T06:00:50+00:00"
+    }
+  }
+}
