@@ -1,0 +1,19 @@
+{
+  "publisher": "European Commission, Eurostat/GISCO",
+  "dataset": "NUTS 2024 regions, level 1, 1:20 million, EPSG:4326",
+  "source_url": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/geojson/NUTS_RG_20M_2024_4326_LEVL_1.geojson",
+  "catalog_url": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/nuts-2024-files.html",
+  "retrieved_at": "2026-09-18T13:56:45.262015+00:00",
+  "source_sha256": "31605ef741134a7cd07a64b8ff41fb069eae7da55c615839801012680362b11e",
+  "bundle_sha256": "f13300b9b517bbbb63983b94079313014e95788e73da01e7a5eacabd9065edc9",
+  "feature_count": 16,
+  "copyright_notice": "© EuroGeographics for the administrative boundaries",
+  "terms_url": "https://ec.europa.eu/eurostat/en/web/gisco/geodata/statistical-units",
+  "transformations": [
+    "Retain only CNTR_CODE=DE; original polygon coordinates unchanged.",
+    "Add official AGS federal-state prefix and GrippeWeb macroregion membership.",
+    "Map renderer projects coordinates locally using spherical Lambert azimuthal equal-area centered at 51° N, 10.5° E."
+  ],
+  "region_mapping_source": "https://github.com/robert-koch-institut/GrippeWeb_Daten_des_Wochenberichts",
+  "geographic_interpretation": "ARE forecasts apply to four macroregions; states in one region share that forecast. Separate influenza and RSV observation layers use genuine state-level reported measurements, not state forecasts."
+}

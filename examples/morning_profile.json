@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "home_location_id": "11000",
+  "destination_location_id": "12054",
+  "activity": {
+    "category": "work",
+    "setting": "indoor",
+    "duration_minutes": 360,
+    "shared_space": true,
+    "crowding": "crowded",
+    "ventilation": "unknown",
+    "commute_mode": "public_transit",
+    "commute_minutes": 35,
+    "commute_crowding": "crowded"
+  }
+}
